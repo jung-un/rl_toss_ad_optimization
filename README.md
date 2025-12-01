@@ -15,7 +15,6 @@ Multi-Armed Bandit 및 Contextual Bandit 기반 토스 앱 광고 추천 정책 
 
 
 ## 2. 파일 구성
-
 이 저장소의 루트에는 아래 파일들이 있습니다.
 
     .
@@ -23,6 +22,7 @@ Multi-Armed Bandit 및 Contextual Bandit 기반 토스 앱 광고 추천 정책 
     ├── RL_TOSS_MAB_Stateless.ipynb
     ├── RL_TOSS_MAB_Contextual Bandit.ipynb
     ├── Toss_preprocessed_FF.csv
+    ├── 강화학습의 기초_강화학습 기반 토스 앱 광고 추천 정책 설계와 성능 평가.pdf
     └── README.md
 
 - `Toss_Data preprocessing_EDA.ipynb`  
@@ -39,6 +39,9 @@ Multi-Armed Bandit 및 Contextual Bandit 기반 토스 앱 광고 추천 정책 
 - `Toss_preprocessed_FF.csv`  
   - 실제 밴딧 실험에 사용되는 최종 전처리 데이터셋입니다.  
   - 용량이 약 20MB 수준으로, GitHub 저장소에 포함되어 있습니다.
+- `강화학습의 기초_강화학습 기반 토스 앱 광고 추천 정책 설계와 성능 평가.pdf`  
+  - **강화학습의 기초** 수업 제출용 최종 발표 자료(PDF)입니다.  
+  - 프로젝트 개요, 모델 구조, 실험 결과 및 시사점을 슬라이드 형태로 정리한 문서입니다.
 
 > 원본 데이터 `sampled_500k_stratified.csv`는 용량 문제로 GitHub에 포함되어 있지 않고,  
 > 아래 3.1절의 Google Drive 링크로 제공합니다.
