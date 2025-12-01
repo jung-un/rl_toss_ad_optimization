@@ -137,7 +137,8 @@ Jupyter Notebook에서 각 `.ipynb` 파일을 열어 실행하면 됩니다.
 - **Stateless MAB 최고 성능**: Thompson Sampling  
   - 최종 CTR: 약 **0.3609**  
 - **Contextual Bandit (LinUCB)**  
-  - 평균 CTR: 약 **0.3570** (Baseline 대비 약 +1.3%p)  
+  -단일 seed CTR: 약 **0.3462**   
+  -10 seed 평균 CTR: 약 **0.3570** (Baseline 대비 약 +1.3%p)  
 
 → 탐색 전략과 컨텍스트 정보를 활용함으로써,  
 단순 고정 정책(Baseline)보다 광고 클릭률을 유의미하게 개선할 수 있음을 확인했습니다.
