@@ -13,7 +13,6 @@ Multi-Armed Bandit 및 Contextual Bandit 기반 토스 앱 광고 추천 정책 
 ---
 
 
----
 
 ## 2. 파일 구성
 
@@ -85,7 +84,7 @@ Colab에서 이 파일을 사용하려면,
 
 ## 4. 개발 환경
 
-- 실행 환경: Google Colab (Python 3.x)
+- 실행 환경: Google Colab (Python 3.12)
 - 주요 라이브러리
   - numpy  
   - pandas  
@@ -100,13 +99,16 @@ Jupyter Notebook에서 각 `.ipynb` 파일을 열어 실행하면 됩니다.
 
 ## 5. 노트북 실행 방법
 
-### 5.1. 전처리 & EDA 노트북
+### 5.1. 전처리 & EDA 노트북 (선택)
+
+> `Toss_preprocessed_FF.csv` 파일이 이미 제공되므로, 아래 과정은 **선택 사항**입니다.  
+> 전처리 과정을 다시 수행하거나 EDA 과정을 확인하고 싶을 때만 실행하면 됩니다.
 
 1. `Toss_Data preprocessing_EDA.ipynb` 파일을 열어 상단부터 순서대로 셀을 실행합니다.  
-2. 원본 데이터 경로를 실제 위치에 맞게 설정합니다.
+2. 원본 데이터 경로를 실제 위치에 맞게 설정합니다. 예시는 다음과 같습니다.  
 
-    import pandas as pd
-    df_raw = pd.read_csv("sampled_500k_stratified.csv")  # 또는 드라이브/다른 경로
+       import pandas as pd
+       df_raw = pd.read_csv("sampled_500k_stratified.csv")  # 또는 드라이브/다른 경로
 
 3. 노트북을 끝까지 실행하면, 동일 디렉터리에 `Toss_preprocessed_FF.csv`가 생성됩니다.
 
