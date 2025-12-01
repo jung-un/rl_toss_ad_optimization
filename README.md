@@ -8,9 +8,7 @@ Multi-Armed Bandit 및 Contextual Bandit 기반 토스 앱 광고 추천 정책 
 ## 1. 팀 정보
 
 - 과목: 강화학습의 기초
-- 팀명: **(팀명)**  
-- 팀장 & 팀원: 
-  - A71030 배정 (깃허브 아이디: @github_id)**  
+- 팀장 & 팀원: A71030 배정언
 
 ---
 
@@ -30,7 +28,6 @@ Multi-Armed Bandit 및 Contextual Bandit 기반 토스 앱 광고 추천 정책 
 ---
 
 ## 3. 폴더 구조
-## 2. 파일/폴더 구조
 
 ```text
 .
