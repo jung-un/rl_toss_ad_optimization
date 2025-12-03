@@ -1,4 +1,4 @@
-# Toss 광고 클릭 최적화 프로젝트 (강화학습 수업)
+# Toss 광고 클릭 최적화 프로젝트 (강화학습의 기초 프로젝트)
 - Multi-Armed Bandit 및 Contextual Bandit 기반 토스 앱 광고 추천 정책 설계와 성능 평가
 - 강화학습(Multi-Armed Bandit, Contextual Bandit)을 이용하여 Toss 앱 광고의 CTR(Click-Through Rate)을 최적화한 프로젝트입니다.  
 - 이 저장소는 수업 프로젝트 제출을 위해 작성되었으며, 코드와 학습된 모델, 보고서(PDF)를 포함합니다.
